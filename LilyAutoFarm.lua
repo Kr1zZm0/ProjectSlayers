@@ -182,7 +182,7 @@ local function loadMap()
 
         flowerCheck()
 
-	wait(6)
+	wait(1)
 
     end
 
@@ -204,7 +204,7 @@ while wait() do
 
             Console:Log("Отдыхаю 1 минуту...")
 
-            wait(60)
+            wait(1)
 
         end
 
