@@ -156,7 +156,7 @@ local function flowerCheck()
 
         bypass_teleport(flower.CFrame, 500)
 
-        wait(1)
+        wait(3)
 
         proximity_prompt:InputHoldBegin()
 
@@ -164,7 +164,7 @@ local function flowerCheck()
 
         wait(proximity_prompt["HoldDuration"])
 
-        wait(3)
+        wait(1)
 
     end
 
