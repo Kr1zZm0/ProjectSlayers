@@ -160,11 +160,11 @@ local function flowerCheck()
 
         proximity_prompt:InputHoldBegin()
 
-        Console:Log("Жду 2 секунды...")
+        Console:Log("Жду 3 секунды...")
 
         wait(proximity_prompt["HoldDuration"])
 
-        wait(1)
+        wait(3)
 
     end
 
@@ -182,7 +182,7 @@ local function loadMap()
 
         flowerCheck()
 
-	wait(2)
+	wait(3)
 
     end
 
