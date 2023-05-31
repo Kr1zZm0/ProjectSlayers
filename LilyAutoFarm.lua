@@ -62,7 +62,7 @@ local MainTab = Window:AddTab("Main")
 
 MainTab:Show()
 
-MainTab:AddSwitch("Autofarm", function(bool) Settings.Enabled = bool end)
+MainTab:AddSwitch("Lily autofarm", function(bool) Settings.Enabled = bool end)
 
 -- MainTab:AddButton("Rejoin", function()
 
@@ -154,13 +154,13 @@ local function flowerCheck()
 
         if not Settings.Enabled then continue end
 
-        bypass_teleport(flower.CFrame, 500)
+        bypass_teleport(flower.CFrame, 200)
 
         wait(1)
 
         proximity_prompt:InputHoldBegin()
 
-        Console:Log("Жду 3 секунды...")
+        Console:Log("Жду 1 секунды...")
 
         wait(proximity_prompt["HoldDuration"])
 
@@ -178,7 +178,7 @@ local function loadMap()
 
         Console:Log(string.format("Проверяю точки на карте [%d / %d]", i, #spawn))
 
-        bypass_teleport(sp, 500)
+        bypass_teleport(sp, 200)
 
         flowerCheck()
 
@@ -202,9 +202,9 @@ while wait() do
 
         if Settings.Enabled then
 
-            Console:Log("Отдыхаю 1 минуту...")
+            Console:Log("Отдыхаю 10 секунд...")
 
-            wait(1)
+            wait(10)
 
         end
 
