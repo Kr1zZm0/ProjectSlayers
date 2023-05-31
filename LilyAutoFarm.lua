@@ -1,4 +1,4 @@
-local Elerium = loadstring(game:HttpGet('https://raw.githubusercontent.com/lomychx/elerium/main/lib.lua'))()
+local Elerium = loadstring(game:HttpGet('https://raw.githubusercontent.com/Kr1zZm0/ProjectSlayers/main/LilyAutoFarm.lua'))()
 
 local LocalPlayer = game.Players.LocalPlayer
 
