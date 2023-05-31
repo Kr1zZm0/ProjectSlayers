@@ -154,7 +154,7 @@ local function flowerCheck()
 
         if not Settings.Enabled then continue end
 
-        bypass_teleport(flower.CFrame, 200)
+        bypass_teleport(flower.CFrame, 500)
 
         wait(1)
 
@@ -178,7 +178,7 @@ local function loadMap()
 
         Console:Log(string.format("Проверяю точки на карте [%d / %d]", i, #spawn))
 
-        bypass_teleport(sp, 200)
+        bypass_teleport(sp, 500)
 
         flowerCheck()
 
