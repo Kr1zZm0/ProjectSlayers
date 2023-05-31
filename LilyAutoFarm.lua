@@ -40,7 +40,7 @@ Settings = {
 
 -- local function rejoin() 
 
---     queue_on_teleport("print(\'[FunPay] [Queue loaded]\') wait(15) print(\'[FunPay] [Loading script]\') local switch = loadstring(game:HttpGet('https://raw.githubusercontent.com/lomychx/projectslayer/main/script.lua'))() print(555) switch(true)")
+--     queue_on_teleport("print(\'[FunPay] [Queue loaded]\') wait(15) print(\'[FunPay] [Loading script]\') local switch = loadstring(game:HttpGet('https://raw.githubusercontent.com/Kr1zZm0/ProjectSlayers/main/LilyAutoFarm.lua'))() print(555) switch(true)")
 
 -- 	TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)-- end
 
